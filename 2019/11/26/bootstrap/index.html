@@ -1,0 +1,385 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+<head>
+    <!--Setting-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+    <meta http-equiv="Cache-Control" content="no-transform">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta name="apple-mobile-web-app-capable" content="Hexo">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no,email=no,adress=no">
+    <meta name="browsermode" content="application">
+    <meta name="screen-orientation" content="portrait">
+    <meta name="theme-version" content="1.2.3">
+    <meta name="root" content="/">
+    <link rel="dns-prefetch" href="http://yoursite.com">
+    <!--SEO-->
+
+<meta name="keywords" content="" />
+
+
+<meta name="description" content="前言bootstrap 是一个开源的前端框架，主要应用于页面的布局。
+官网介绍：
+
+the world’s most popular framework for building respons..." />
+
+
+<meta name="robots" content="all" />
+<meta name="google" content="all" />
+<meta name="googlebot" content="all" />
+<meta name="verify" content="all" />
+    <!--Title-->
+
+<title>
+    
+    bootstrap |
+    
+    Hexo
+</title>
+
+<link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+
+
+<link rel="icon" href="/favicon.ico">
+
+    
+
+<link rel="stylesheet" href="/css/bootstrap.min.css?rev=3.3.7">
+<link rel="stylesheet" href="/css/font-awesome.min.css?rev=4.7.0">
+<link rel="stylesheet" href="/css/style.css?rev=@@hash">
+    
+<div class="hide">
+    <script type="text/javascript">
+    var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+    document.write(unescape("%3Cspan class='cnzz_stat_icon_1263868967 hide' %3E%3Cscript%20src%3D%22https%3A%2F%2Fs95.cnzz.com%2Fz_stat.php%3Fweb_id%3D1272564536%22%3E%3C%2Fscript%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1263868967%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+</div>
+
+
+
+
+    
+
+</head>
+<!--[if lte IE 8]>
+<style>
+    html{ font-size: 1em }
+</style>
+<![endif]-->
+<!--[if lte IE 9]>
+<div style="ie">你使用的浏览器版本过低，为了你更好的阅读体验，请更新浏览器的版本或者使用其他现代浏览器，比如Chrome、Firefox、Safari等。</div>
+<![endif]-->
+<body>
+    <header class="main-header"  style="background-image:url(
+    http://snippet.shenliyang.com/img/banner.jpg)"
+     >
+    <div class="main-header-box">
+        <a class="header-avatar" href="/" title='MSP'>
+            <img src="/img/avatar.jpg" alt="logo头像" class="img-responsive center-block">
+        </a>
+        <div class="branding">
+            <!--<h2 class="text-hide">Snippet主题,从未如此简单有趣</h2>-->
+            
+            <img src="/img/branding.png" alt="Snippet 博客主题" class="img-responsive center-block">
+            
+        </div>
+    </div>
+</header>
+    <nav class="main-navigation">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="navbar-header"><span class="nav-toggle-button collapsed pull-right" data-toggle="collapse" data-target="#main-menu" id="mnav">
+                        <span class="sr-only"></span>
+                        <i class="fa fa-bars"></i>
+                    </span>
+                    <a class="navbar-brand" href="http://yoursite.com">
+                        Hexo</a>
+                </div>
+                <div class="collapse navbar-collapse" id="main-menu">
+                    <ul class="menu">
+                        
+                        <li role="presentation" class="text-center">
+                            <a href="/"><i class="fa "></i>
+                                首页</a>
+                        </li>
+                        
+                        <li role="presentation" class="text-center">
+                            <a href="/categories/前端/"><i class="fa "></i>
+                                前端</a>
+                        </li>
+                        
+                        <li role="presentation" class="text-center">
+                            <a href="/categories/java/"><i class="fa "></i>
+                                java</a>
+                        </li>
+                        
+                        <li role="presentation" class="text-center">
+                            <a href="/categories/jsp/"><i class="fa "></i>
+                                jsp</a>
+                        </li>
+                        
+                        <li role="presentation" class="text-center">
+                            <a href="/archives/"><i class="fa "></i>
+                                时间轴</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+    <section class="content-wrap">
+        <div class="container">
+            <div class="row">
+                <main class="col-md-8 main-content m-post">
+                    <p id="process"></p>
+<article class="post">
+    <div class="post-head">
+        <h1 id="bootstrap">
+            
+            bootstrap
+            
+        </h1>
+        <div class="post-meta">
+    
+    <span class="categories-meta fa-wrap">
+        <i class="fa fa-folder-open-o"></i>
+        
+    </span>
+    
+    
+    <span class="fa-wrap">
+        <i class="fa fa-tags"></i>
+        <span class="tags-meta">
+            
+        </span>
+    </span>
+    
+    
+    
+    <span class="fa-wrap">
+        <i class="fa fa-clock-o"></i>
+        <span class="date-meta">
+            2019/11/26</span>
+    </span>
+    
+    
+</div>
+        
+        
+    </div>
+    
+    <div class="post-body post-content">
+        <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>bootstrap 是一个开源的前端框架，主要应用于页面的布局。</p>
+<p>官网介绍：</p>
+<blockquote>
+<p>the world’s most popular framework for building responsive, mobile-first sites</p>
+</blockquote>
+<p>同时，它也是移动优先的布局框架。</p>
+<p>移动优先，指使用bootstrap开发的页面，不仅能用于web显示，还能用于移动端显示。</p>
+<h2 id="CSS布局常用篇"><a href="#CSS布局常用篇" class="headerlink" title="CSS布局常用篇"></a>CSS布局常用篇</h2><h3 id="屏幕自适应"><a href="#屏幕自适应" class="headerlink" title="屏幕自适应"></a>屏幕自适应</h3><p>使用bootstrap中规范好的CSS样式，能使页面根据屏幕大小自适应，但必须要在<code>head</code>部分加入：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"viewport"</span> <span class="attr">content</span>=<span class="string">"width=device-width, initial-scale=1, shrink-to-fit=no"</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="内外边距"><a href="#内外边距" class="headerlink" title="内外边距"></a>内外边距</h3><p>可以设置的属性：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">m` - 设置外边距 `margin`</span><br><span class="line"> `p` - 设置内边距 `padding</span><br></pre></td></tr></table></figure>
+
+<p>可以设置的方向：</p>
+<p><code>t</code> - 设置上<em>距 \</em>-top b - 设置下<em>距 `</em>-bottom<code></code>l<code>- 设置左*距 \*-left r - 设置右*距</code><em>-right<code></code>x<code>- 设置x方向的*距，即左右边距 both</code></em>-left<code>and</code><em>-right<code></code>y<code>- 设置y方向 both</code></em>-top<code>and</code>*-bottom<code></code>(none)` - 空则表示设置四个方向</p>
+<p>可以设置的大小：</p>
+<p><code>0</code> - 设置<em>边距为0：for classes that eliminate the margin or padding by setting it to 0 1 - (by default) 设置 the margin or padding to ![spacer \</em> .25 <code>2</code> - (by default) 设置 the margin or padding to](<a href="https://math.jianshu.com/math?formula=spacer%20\*%20.25%20%602%60%20-%20(by%20default)%20%E8%AE%BE%E7%BD%AE%20the%20margin%20or%20padding%20to)spacer" target="_blank" rel="noopener">https://math.jianshu.com/math?formula=spacer%20\*%20.25%20%602%60%20-%20(by%20default)%20%E8%AE%BE%E7%BD%AE%20the%20margin%20or%20padding%20to)spacer</a> * .5 3 - (by default) 设置 the margin or padding to <img src="https://math.jianshu.com/math?formula=spacer%20%604%60%20-%20(by%20default)%20%E8%AE%BE%E7%BD%AE%20the%20margin%20or%20padding%20to" alt="spacer `4` - (by default) 设置 the margin or padding to">spacer * 1.5 5 - (by default) 设置 the margin or padding to $spacer * 3 auto - 设置自动的<strong>外边距</strong> the <strong>margin</strong> to auto</p>
+<p>示例：</p>
+<p><code>mr-3</code> 对应 <code>margin-right: 3</code>  3为不定值，随屏幕大小变化。<br> <code>py-2</code> 对应 <code>padding-top:2;padding-bottom:2;</code><br> ……</p>
+<h3 id="块级元素与行内元素的转换"><a href="#块级元素与行内元素的转换" class="headerlink" title="块级元素与行内元素的转换"></a>块级元素与行内元素的转换</h3><p><code>d-inline-block</code> 将块级元素转换为行内块级元素</p>
+<h3 id="栅栏布局"><a href="#栅栏布局" class="headerlink" title="栅栏布局"></a>栅栏布局</h3><h4 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h4><p>见官网：<a href="https://getbootstrap.com/docs/4.1/layout/grid/" target="_blank" rel="noopener">栅栏布局</a></p>
+<h4 id="配合外边距"><a href="#配合外边距" class="headerlink" title="配合外边距"></a>配合外边距</h4><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"row"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"col-md-4"</span>&gt;</span>.col-md-4<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"col-md-4 ml-auto"</span>&gt;</span>.col-md-4 .ml-auto<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>效果如下：</p>
+<p><img src="https:////upload-images.jianshu.io/upload_images/13404785-3cea3332ef0dc10f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/824/format/webp" alt="img"></p>
+<p>grid1.png</p>
+<h4 id="偏移"><a href="#偏移" class="headerlink" title="偏移"></a>偏移</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">offset-*</span><br><span class="line">&lt;div class=&quot;row&quot;&gt;</span><br><span class="line">    &lt;div class=&quot;col-4&quot;&gt;.col-md-4&lt;/div&gt;</span><br><span class="line">    &lt;div class=&quot;col-4 offset-4&quot;&gt;.col-md-4 .offset-md-4&lt;/div&gt;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
+
+<h3 id="规范子元素的flex"><a href="#规范子元素的flex" class="headerlink" title="规范子元素的flex"></a>规范子元素的flex</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">d-flex</span><br></pre></td></tr></table></figure>
+
+<h4 id="水平布局"><a href="#水平布局" class="headerlink" title="水平布局"></a>水平布局</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">justify-content-*</span><br><span class="line">&lt;div class=&quot;d-flex justify-content-start&quot;&gt;...&lt;/div&gt;</span><br><span class="line">&lt;div class=&quot;d-flex justify-content-end&quot;&gt;...&lt;/div&gt;</span><br><span class="line">&lt;div class=&quot;d-flex justify-content-center&quot;&gt;...&lt;/div&gt;</span><br><span class="line">&lt;div class=&quot;d-flex justify-content-between&quot;&gt;...&lt;/div&gt;</span><br><span class="line">&lt;div class=&quot;d-flex justify-content-around&quot;&gt;...&lt;/div&gt;</span><br></pre></td></tr></table></figure>
+
+<p>作用于div子元素。</p>
+<p>效果依次为：</p>
+<p><img src="https:////upload-images.jianshu.io/upload_images/13404785-f3c718107e1ce753.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/831/format/webp" alt="img"></p>
+<p>flex1.png</p>
+<h4 id="垂直布局"><a href="#垂直布局" class="headerlink" title="垂直布局"></a>垂直布局</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">align-items-*</span><br><span class="line">&lt;div class=&quot;d-flex align-items-start&quot;&gt;...&lt;/div&gt;</span><br><span class="line">&lt;div class=&quot;d-flex align-items-end&quot;&gt;...&lt;/div&gt;</span><br><span class="line">&lt;div class=&quot;d-flex align-items-center&quot;&gt;...&lt;/div&gt;</span><br><span class="line">&lt;div class=&quot;d-flex align-items-baseline&quot;&gt;...&lt;/div&gt;</span><br><span class="line">&lt;div class=&quot;d-flex align-items-stretch&quot;&gt;...&lt;/div&gt;</span><br></pre></td></tr></table></figure>
+
+<p>同样作用于div子元素。</p>
+<p>效果依次为：</p>
+<p><img src="https:////upload-images.jianshu.io/upload_images/13404785-0dd9f25579ec3ec8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/825/format/webp" alt="img"></p>
+<p>flex2.png</p>
+<h4 id="充满"><a href="#充满" class="headerlink" title="充满"></a>充满</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">flex-fill</span><br><span class="line">&lt;div class=&quot;d-flex&quot;&gt;</span><br><span class="line">  &lt;div class=&quot;p-2 flex-fill&quot;&gt;Flex item with a lot of content&lt;/div&gt;</span><br><span class="line">  &lt;div class=&quot;p-2 flex-fill&quot;&gt;Flex item&lt;/div&gt;</span><br><span class="line">  &lt;div class=&quot;p-2 flex-fill&quot;&gt;Flex item&lt;/div&gt;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
+
+<p>作用于当前元素，效果是充满父元素。</p>
+<h4 id="增长"><a href="#增长" class="headerlink" title="增长"></a>增长</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">flex-grow-*</span><br><span class="line">&lt;div class=&quot;d-flex bd-highlight&quot;&gt;</span><br><span class="line">  &lt;div class=&quot;p-2 flex-grow-1 bd-highlight&quot;&gt;Flex item&lt;/div&gt;</span><br><span class="line">  &lt;div class=&quot;p-2 bd-highlight&quot;&gt;Flex item&lt;/div&gt;</span><br><span class="line">  &lt;div class=&quot;p-2 bd-highlight&quot;&gt;Third flex item&lt;/div&gt;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>Use .flex-grow-* utilities to toggle a flex item’s ability to grow to fill available space.</p>
+</blockquote>
+<p>将当前元素尽可能地增长，效果如下：</p>
+<p><img src="https:////upload-images.jianshu.io/upload_images/13404785-ae2dcbdc49e673f2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/833/format/webp" alt="img"></p>
+<p>flex3.png</p>
+<h4 id="缩短"><a href="#缩短" class="headerlink" title="缩短"></a>缩短</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">flex-shrink-*</span><br><span class="line">&lt;div class=&quot;d-flex bd-highlight&quot;&gt;</span><br><span class="line">  &lt;div class=&quot;p-2 w-100 bd-highlight&quot;&gt;Flex item&lt;/div&gt;</span><br><span class="line">  &lt;div class=&quot;p-2 flex-shrink-1 bd-highlight&quot;&gt;Flex item&lt;/div&gt;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>Use .flex-shrink-* utilities to toggle a flex item’s ability to shrink if necessary.</p>
+</blockquote>
+<p>将当前元素有必要地缩短，效果如下：</p>
+<p><img src="https:////upload-images.jianshu.io/upload_images/13404785-6bdbded254729e4b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/821/format/webp" alt="img"></p>
+<p>flex4.png</p>
+<h3 id="作用当前元素"><a href="#作用当前元素" class="headerlink" title="作用当前元素"></a>作用当前元素</h3><h4 id="当前元素水平布局"><a href="#当前元素水平布局" class="headerlink" title="当前元素水平布局"></a>当前元素水平布局</h4><p>利用外边距可以实现：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"ml-auto"</span> <span class="attr">style</span>=<span class="string">"width: 200px;"</span>&gt;</span></span><br><span class="line">  Centered element</span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"mr-auto"</span> <span class="attr">style</span>=<span class="string">"width: 200px;"</span>&gt;</span></span><br><span class="line">  Centered element</span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"mx-auto"</span> <span class="attr">style</span>=<span class="string">"width: 200px;"</span>&gt;</span></span><br><span class="line">  Centered element</span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p><code>ml-auto</code> 表示 <code>margin-left:auto</code>，效果使得当前元素水平居右。</p>
+<p><code>mx-auto</code> 表示左右外边距都为 <code>auto</code>，效果是水平居中。</p>
+<h4 id="当前元素垂直布局"><a href="#当前元素垂直布局" class="headerlink" title="当前元素垂直布局"></a>当前元素垂直布局</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">align-*</span><br><span class="line">&lt;span class=&quot;align-baseline&quot;&gt;baseline&lt;/span&gt;</span><br><span class="line">&lt;span class=&quot;align-top&quot;&gt;top&lt;/span&gt;</span><br><span class="line">&lt;span class=&quot;align-middle&quot;&gt;middle&lt;/span&gt;</span><br><span class="line">&lt;span class=&quot;align-bottom&quot;&gt;bottom&lt;/span&gt;</span><br><span class="line">&lt;span class=&quot;align-text-top&quot;&gt;text-top&lt;/span&gt;</span><br><span class="line">&lt;span class=&quot;align-text-bottom&quot;&gt;text-bottom&lt;/span&gt;</span><br></pre></td></tr></table></figure>
+
+<p><strong>作用于当前元素</strong>，效果如下：</p>
+<p><img src="https:////upload-images.jianshu.io/upload_images/13404785-0b037141eb7fca2d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/402/format/webp" alt="img"></p>
+<p>verticalAlign.png</p>
+<h2 id="CSS元素规范篇"><a href="#CSS元素规范篇" class="headerlink" title="CSS元素规范篇"></a>CSS元素规范篇</h2><h3 id="规范字体"><a href="#规范字体" class="headerlink" title="规范字体"></a>规范字体</h3><h4 id="字体样式"><a href="#字体样式" class="headerlink" title="字体样式"></a>字体样式</h4><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>You can use the mark tag to <span class="tag">&lt;<span class="name">mark</span>&gt;</span>highlight<span class="tag">&lt;/<span class="name">mark</span>&gt;</span> text.<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span><span class="tag">&lt;<span class="name">del</span>&gt;</span>This line of text is meant to be treated as deleted text.<span class="tag">&lt;/<span class="name">del</span>&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span><span class="tag">&lt;<span class="name">s</span>&gt;</span>This line of text is meant to be treated as no longer accurate.<span class="tag">&lt;/<span class="name">s</span>&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span><span class="tag">&lt;<span class="name">ins</span>&gt;</span>This line of text is meant to be treated as an addition to the document.<span class="tag">&lt;/<span class="name">ins</span>&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span><span class="tag">&lt;<span class="name">u</span>&gt;</span>This line of text will render as underlined<span class="tag">&lt;/<span class="name">u</span>&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span><span class="tag">&lt;<span class="name">small</span>&gt;</span>This line of text is meant to be treated as fine print.<span class="tag">&lt;/<span class="name">small</span>&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span><span class="tag">&lt;<span class="name">strong</span>&gt;</span>This line rendered as bold text.<span class="tag">&lt;/<span class="name">strong</span>&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span><span class="tag">&lt;<span class="name">em</span>&gt;</span>This line rendered as italicized text.<span class="tag">&lt;/<span class="name">em</span>&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>效果如下：</p>
+<p><img src="https:////upload-images.jianshu.io/upload_images/13404785-cdd9e20512a1bd86.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/795/format/webp" alt="img"></p>
+<p>字体样式.png</p>
+<h4 id="包裹字体"><a href="#包裹字体" class="headerlink" title="包裹字体"></a>包裹字体</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">text-wrap</span><br><span class="line">&lt;div class=&quot;text-wrap&quot; style=&quot;width: 6rem;&quot;&gt;</span><br><span class="line">  This text should wrap.</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
+
+<p>字体会自动换行，适用于<strong>规定宽度</strong>的div中的字体。</p>
+<p>不包裹字体则是 <code>text-nowarp</code>。</p>
+<h4 id="字体过长省略"><a href="#字体过长省略" class="headerlink" title="字体过长省略"></a>字体过长省略</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">text-truncate</span><br><span class="line">&lt;div class=&quot;row&quot;&gt;</span><br><span class="line">  &lt;div class=&quot;col-2 text-truncate&quot;&gt;</span><br><span class="line">    Praeterea iter est quasdam res quas ex communi.</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>For longer content, you can add a .text-truncate class to truncate the text with an ellipsis. Requires display: inline-block or display: block.</p>
+</blockquote>
+<p>适用于块级元素中的字体。</p>
+<h4 id="字体水平位置"><a href="#字体水平位置" class="headerlink" title="字体水平位置"></a>字体水平位置</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">text-*</span><br><span class="line">&lt;p class=&quot;text-left&quot;&gt;Left aligned text on all viewport sizes.&lt;/p&gt;</span><br><span class="line">&lt;p class=&quot;text-center&quot;&gt;Center aligned text on all viewport sizes.&lt;/p&gt;</span><br><span class="line">&lt;p class=&quot;text-right&quot;&gt;Right aligned text on all viewport sizes.&lt;/p&gt;</span><br></pre></td></tr></table></figure>
+
+<p>效果如下：</p>
+<p><img src="https:////upload-images.jianshu.io/upload_images/13404785-b3fa1007be134125.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/808/format/webp" alt="img"></p>
+<p>字体水平布局.png</p>
+<h3 id="规范列表"><a href="#规范列表" class="headerlink" title="规范列表"></a>规范列表</h3><p><code>list-unstyled</code>     列表无黑点</p>
+<p><code>list-inline</code>       行内列表<br> <code>list-inline-item</code>  行内列表中的一项</p>
+<p>使用如下：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">ul</span> <span class="attr">class</span>=<span class="string">"list-inline"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">li</span> <span class="attr">class</span>=<span class="string">"list-inline-item"</span>&gt;</span>Lorem ipsum<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">li</span> <span class="attr">class</span>=<span class="string">"list-inline-item"</span>&gt;</span>Phasellus iaculis<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">li</span> <span class="attr">class</span>=<span class="string">"list-inline-item"</span>&gt;</span>Nulla volutpat<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">ul</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="规范表格"><a href="#规范表格" class="headerlink" title="规范表格"></a>规范表格</h3><p>见官网 <a href="https://getbootstrap.com/docs/4.1/content/tables/" target="_blank" rel="noopener">表格</a></p>
+<h2 id="CSS组件篇"><a href="#CSS组件篇" class="headerlink" title="CSS组件篇"></a>CSS组件篇</h2><h3 id="块引用"><a href="#块引用" class="headerlink" title="块引用"></a>块引用</h3><p><code>blockquote</code> 设置为块引用<br> <code>blockquote-footer</code> 块引用的引脚</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">blockquote</span> <span class="attr">class</span>=<span class="string">"blockquote"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">p</span> <span class="attr">class</span>=<span class="string">"mb-0"</span>&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">footer</span> <span class="attr">class</span>=<span class="string">"blockquote-footer"</span>&gt;</span>Someone famous in <span class="tag">&lt;<span class="name">cite</span> <span class="attr">title</span>=<span class="string">"Source Title"</span>&gt;</span>Source Title<span class="tag">&lt;/<span class="name">cite</span>&gt;</span><span class="tag">&lt;/<span class="name">footer</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">blockquote</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+
+    </div>
+    
+    <div class="post-footer">
+        <div>
+            
+            转载声明：
+            商业转载请联系作者获得授权,非商业转载请注明出处 © <a href="" target="_blank">Snippet</a>
+            
+            
+        </div>
+        <div>
+            
+        </div>
+    </div>
+</article>
+<div class="article-nav prev-next-wrap clearfix">
+    
+    
+    <a href="/2019/11/26/vue%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95%E6%80%BB%E7%BB%93/" class="next-post btn btn-default" title='vue基本用法总结'>
+        <span class="hidden-lg">下一篇</span>
+        <span class="hidden-xs">
+            vue基本用法总结</span><i class="fa fa-angle-right fa-fw"></i>
+    </a>
+    
+</div>
+
+<div id="comments">
+    
+
+<div id="vcomments" class="valine"></div>
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src="/assets/valine.min.js"></script>
+<script>
+new Valine({
+    av: AV,
+    el: '#vcomments',
+    appId: 'xOKV9J4UeQAtVkvnJC7Kq2Jn-gzGzoHsz',
+    appKey: 'erIpQac4azoCmgfBB7Dl9maa',
+    placeholder: '说点什么吧',
+    notify: false,
+    verify: true,
+    avatar: 'mm',
+    meta: 'nick,mail'.split(','),
+    pageSize: '10',
+    path: window.location.pathname,
+    lang: 'zh-CN'.toLowerCase()
+})
+</script>
+
+
+</div>
+
+                </main>
+                
+                    <aside id="article-toc" role="navigation" class="col-md-4">
+    <div class="widget">
+        <h3 class="title">
+            文章目录
+        </h3>
+        
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#前言"><span class="toc-text">前言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#CSS布局常用篇"><span class="toc-text">CSS布局常用篇</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#屏幕自适应"><span class="toc-text">屏幕自适应</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#内外边距"><span class="toc-text">内外边距</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#块级元素与行内元素的转换"><span class="toc-text">块级元素与行内元素的转换</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#栅栏布局"><span class="toc-text">栅栏布局</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#基础"><span class="toc-text">基础</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#配合外边距"><span class="toc-text">配合外边距</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#偏移"><span class="toc-text">偏移</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#规范子元素的flex"><span class="toc-text">规范子元素的flex</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#水平布局"><span class="toc-text">水平布局</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#垂直布局"><span class="toc-text">垂直布局</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#充满"><span class="toc-text">充满</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#增长"><span class="toc-text">增长</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#缩短"><span class="toc-text">缩短</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#作用当前元素"><span class="toc-text">作用当前元素</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#当前元素水平布局"><span class="toc-text">当前元素水平布局</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#当前元素垂直布局"><span class="toc-text">当前元素垂直布局</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#CSS元素规范篇"><span class="toc-text">CSS元素规范篇</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#规范字体"><span class="toc-text">规范字体</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#字体样式"><span class="toc-text">字体样式</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#包裹字体"><span class="toc-text">包裹字体</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#字体过长省略"><span class="toc-text">字体过长省略</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#字体水平位置"><span class="toc-text">字体水平位置</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#规范列表"><span class="toc-text">规范列表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#规范表格"><span class="toc-text">规范表格</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#CSS组件篇"><span class="toc-text">CSS组件篇</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#块引用"><span class="toc-text">块引用</span></a></li></ol></li></ol>
+        
+    </div>
+</aside>
+                
+            </div>
+        </div>
+    </section>
+    <footer class="main-footer">
+    <div class="container">
+        <div class="row">
+        </div>
+    </div>
+</footer>
+<a id="back-to-top" class="icon-btn hide">
+    <i class="fa fa-chevron-up"></i>
+</a>
+    <div class="copyright">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="busuanzi">
+    
+</div>
+            </div>
+            <div class="col-sm-12">
+                <span>Copyright &copy;
+                    2017
+                    
+                </span> |
+                <span>
+                    Powered by <a href="//hexo.io" class="copyright-links" target="_blank" rel="nofollow">Hexo</a>
+                </span> |
+                <span>
+                    Theme by <a href="//github.com/shenliyang/hexo-theme-snippet.git" class="copyright-links" target="_blank" rel="nofollow">Snippet</a>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script src="/js/app.js?rev=@@hash"></script>
+</body>
+</html>
